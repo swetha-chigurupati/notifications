@@ -1,0 +1,30 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.img-class {
+  height: 100px;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
+}
+@media and screen(max-width:576px) {
+  .bg-container {
+    width: 40vw;
+  }
+}
+@media and screen(min-width:768px) {
+  .bg-container {
+    width: 100vw;
+  }
+}
